@@ -11,12 +11,10 @@
     <h1 class="text-center">Pagina PHP</h1>
         <form class="form-cnt w-75 m-auto p-4 d-flex flex-column" action="risultato.php" method="POST">
             <textarea name="testo" id="paragrafo" cols="30" rows="10"></textarea>
-            <button>Conferma paragrafo</button>
+            <label for="input">parola da censurare: </label>
+            <input type="text" name="parolaccia">
+            <input type="submit">
         </form>
-    <?php
-        $saluto = "ciao";
-        echo "<h1>$saluto " . "belli fringuelli</h1>";
-    ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
